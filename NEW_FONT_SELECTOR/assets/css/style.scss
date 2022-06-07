@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainsection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .contentbox {
+        background: url(/assets/img/nameplaye.png);
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1.names {
+            color: #fff;
+            font-family: muli;
+            font-weight: 400;
+        }
+        img.box-image {
+            width: 350px;
+            height: 250px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .selectFOnt {
+        .image-checkbox {
+            text-align: center !important;
+            background-color: bisque !important;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    }
+    .fomrdata {
+        .img-fluid {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+    }
+}
